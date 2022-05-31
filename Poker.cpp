@@ -2,7 +2,7 @@
 #include<string>
 #include <cstdlib> 
 #include<ctime>
-#include"poker.h"
+#include"Poker.h"
 using namespace std;
 Poker::Poker() {
 	for (int i = 0; i <= 12; i++) {
