@@ -10,7 +10,7 @@ int main() {
 	poker.setMoney();
 	poker.setBet();
 	poker.newPoker();
-	cout << "1.要牌 2.不要牌 3.重新開始" << endl;
+	cout << "1.要牌 2.不要牌 3.重新開始 4.退出" << endl;
 	cin >> choose;
 	while (choose == 1 || choose == 2 || choose == 3 || choose == 4) {
 		if (choose == 1) poker.askPokerP();
